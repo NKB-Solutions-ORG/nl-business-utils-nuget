@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>NLBusinessUtils</PackageId>
+    <Description>Validation and formatting utilities for Dutch business identifiers: BSN, RSIN, KVK-nummer, BTW-nummer (VAT), IBAN, postcode, phone numbers and VAT calculations.</Description>
+    <PackageTags>bsn;rsin;kvk;btw;vat;iban;postcode;netherlands;dutch;validation;elfproef</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
